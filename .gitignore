@@ -1,0 +1,19 @@
+# Dependencies and generated output
+**/node_modules/
+**/__pycache__/
+**/dist/
+**/build/
+**/.next/
+**/coverage/
+
+# Environment and local secrets
+**/.env
+**/.env.*
+!.env.example
+
+# Runtime logs and local state
+**/*.log
+**/*.session
+**/*.session-journal
+**/.DS_Store
+**/Thumbs.db
